@@ -28,25 +28,29 @@ export default function Home() {
         <title>Sathish Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-black dark:text-white">
+      <main  className=" bg-gray-100 px-10 md:px-20 lg:px-40 dark:bg-black dark:text-white">
           <section className='min-h-screen'>
               <nav className='py-10 mb-12 flex justify-between'>
                 <h1 className='text-xl font-burtons md:text-3xl lg:text-5xl'>Sathish</h1>
                 <ul className='flex justify-between gap-8'>
                   <li><BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)}/>{''}</li>
-                  <li className='text-xl text-blue-500 hover:text-green-500 cursor-pointer  dark:bg-black dark:text-white'>Resume</li>
+                  <a href='sathish_porfile.pdf' target='_blank'>
+                    <li className='text-xl text-blue-500 hover:text-green-500 cursor-pointer  dark:bg-black dark:text-white'>Resume</li>
+                  </a>
                 </ul>
               </nav>
               <div className='text-center p-10'>
                  <h2 className='text-5xl py-5 text-teal-600'>Sathish</h2>
-                 <h3 className='text-2xl py-2'>FrontEnd Developer</h3>
+                 <h3 className='text-2xl py-2'>FrontEnd and Php Developer</h3>
                  <p className='text-md py-5  font-medium leading-8 text-gray-600  dark:bg-black dark:text-white' >
                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.  
                  </p>
               </div>
               <div className='text-6xl flex justify-center gap-16 text-blue-600  dark:bg-black dark:text-white'>
+                <a href='https://www.linkedin.com/in/sathish-8a3573137/' target='_blank'>
                 <AiFillLinkedin />
+                </a>
                 <AiFillTwitterCircle  />
                 <AiFillYoutube />
               </div>
